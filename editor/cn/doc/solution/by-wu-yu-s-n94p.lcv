@@ -1,0 +1,37 @@
+* java
+
+```java
+class Solution {
+    public static TreeNode convertBiNode(TreeNode root) {
+        List<TreeNode> list = new LinkedList<>();
+        TreeNode predecessor;
+        while (root != null) {
+            if (root.left == null) {
+                list.add(root);
+                root = root.right;
+            } else {
+                predecessor = root.left;
+                while (predecessor.right != null && predecessor.right != root)
+                    predecessor = predecessor.right;
+                if (predecessor.right == null) {    // 前
+                    predecessor.right = root;
+                    root = root.left;
+                } else {        // 中
+                    list.add(root);
+                    predecessor.right = null;
+                    root = root.right;
+                }
+            }
+        }
+
+        TreeNode L = new TreeNode(), pre = L;
+        for (TreeNode n : list) {
+            pre.right = n;
+            n.left = null;
+            pre = pre.right;
+        }
+        return L.right;
+    }
+}
+```
+
