@@ -34,41 +34,27 @@
 // Related Topics 栈 数组 单调栈 👍 1180 👎 0
 
 
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+import java.util.*;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
-        Deque<Integer> deque = new ArrayDeque<>();
-        int index = 0;
+        Deque<Integer> stk = new ArrayDeque<>();
+        Deque<Integer> stk2 = new ArrayDeque<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < temperatures.length; ++i){
+
+            while (!stk.isEmpty() && stk.peek() < temperatures[i]){
+                map.put(stk2.peek(), i - stk2.pop());
+                stk.pop();
+            }
+            stk2.push(i);
+            stk.push(temperatures[i]);
+        }
         int[] res = new int[temperatures.length];
         for (int i = 0; i < temperatures.length; ++i){
-            if (deque.isEmpty()) deque.push(temperatures[i]);
-            else {
-//                int peek = deque.peek();
-//                deque.push(temperatures[i]);
-                if (temperatures[i] > temperatures[index]){
-                    int num = 1;
-                    while (deque.size() != index + 1){
-                        deque.pop();
-                        ++num;
-                    }
-                    res[index] = num;
-                    ++index;
-                    i = i - num;
-                }else {
-                    deque.push(temperatures[i]);
-                }
-            }
-            if (i == temperatures.length - 1){
-                res[index++] = 0;
-                i = index - 1;
-            }
-            System.out.println(Arrays.toString(res));
+            res[i] = map.getOrDefault(i, 0);
         }
-
         return res;
     }
 }

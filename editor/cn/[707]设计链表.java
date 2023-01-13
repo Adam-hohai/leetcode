@@ -40,7 +40,7 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyLinkedList {
 
-    private class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
         ListNode(int val){

@@ -476,6 +476,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[2104]子数组范围和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[2104]子数组范围和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2104" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[2104]子数组范围和.java" />
+              <option name="titleSlug" value="sum-of-subarray-ranges" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[2132]用邮票贴满网格图.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[2132]用邮票贴满网格图.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2132" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[2132]用邮票贴满网格图.java" />
+              <option name="titleSlug" value="stamping-the-grid" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[213]打家劫舍 II.java">
           <value>
             <LeetcodeEditor>
@@ -674,6 +696,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[303]区域和检索 - 数组不可变.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[303]区域和检索 - 数组不可变.md" />
+              <option name="frontendQuestionId" value="leetcode.cn303" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[303]区域和检索 - 数组不可变.java" />
+              <option name="titleSlug" value="range-sum-query-immutable" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[304]二维区域和检索 - 矩阵不可变.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[304]二维区域和检索 - 矩阵不可变.md" />
+              <option name="frontendQuestionId" value="leetcode.cn304" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[304]二维区域和检索 - 矩阵不可变.java" />
+              <option name="titleSlug" value="range-sum-query-2d-immutable" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[328]奇偶链表.java">
           <value>
             <LeetcodeEditor>
@@ -726,6 +770,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[3]无重复字符的最长子串.java" />
               <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[415]字符串相加.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[415]字符串相加.md" />
+              <option name="frontendQuestionId" value="leetcode.cn415" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[415]字符串相加.java" />
+              <option name="titleSlug" value="add-strings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -784,6 +839,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[56]合并区间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[56]合并区间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn56" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[56]合并区间.java" />
+              <option name="titleSlug" value="merge-intervals" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[61]旋转链表.java">
           <value>
             <LeetcodeEditor>
@@ -817,6 +883,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[713]乘积小于 K 的子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[713]乘积小于 K 的子数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn713" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[713]乘积小于 K 的子数组.java" />
+              <option name="titleSlug" value="subarray-product-less-than-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[739]每日温度.java">
           <value>
             <LeetcodeEditor>
@@ -847,6 +924,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[746]使用最小花费爬楼梯.java" />
               <option name="titleSlug" value="min-cost-climbing-stairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[768]最多能完成排序的块 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[768]最多能完成排序的块 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn768" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[768]最多能完成排序的块 II.java" />
+              <option name="titleSlug" value="max-chunks-to-make-sorted-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -905,6 +993,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[907]子数组的最小值之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[907]子数组的最小值之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn907" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[907]子数组的最小值之和.java" />
+              <option name="titleSlug" value="sum-of-subarray-minimums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[918]环形子数组的最大和.java">
           <value>
             <LeetcodeEditor>
@@ -946,6 +1045,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[94]二叉树的中序遍历.java" />
               <option name="titleSlug" value="binary-tree-inorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[962]最大宽度坡.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[962]最大宽度坡.md" />
+              <option name="frontendQuestionId" value="leetcode.cn962" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[962]最大宽度坡.java" />
+              <option name="titleSlug" value="maximum-width-ramp" />
             </LeetcodeEditor>
           </value>
         </entry>
